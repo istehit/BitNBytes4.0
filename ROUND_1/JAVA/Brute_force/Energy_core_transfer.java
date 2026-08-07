@@ -1,6 +1,8 @@
 package ROUND_1.JAVA.Brute_force;
 
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+
 
 public class Energy_core_transfer {
    

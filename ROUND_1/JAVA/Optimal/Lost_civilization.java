@@ -1,6 +1,7 @@
 package ROUND_1.JAVA.Optimal;
 
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Lost_civilization {
     static int value(char c) {
