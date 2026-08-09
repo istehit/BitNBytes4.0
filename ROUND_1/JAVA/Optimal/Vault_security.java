@@ -1,5 +1,3 @@
-package ROUND_1.JAVA.Optimal;
-
 import java.io.*;
 import java.util.*;
 
@@ -35,7 +33,7 @@ public class Vault_security {
 }
 /*
 Time Complexity
-O(log₁₀ N)
+O(log10 N)
 Space Complexity
 O(1)
 */

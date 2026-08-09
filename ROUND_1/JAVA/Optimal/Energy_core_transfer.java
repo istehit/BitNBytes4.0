@@ -1,4 +1,3 @@
-package ROUND_1.JAVA.Optimal;
 
 import java.io.*;
 import java.util.*;
@@ -16,3 +15,9 @@ public class Energy_core_transfer {
     }
     
 }
+/* 
+Time Complexity
+O(1)
+Space Complexity
+O(1)
+*/

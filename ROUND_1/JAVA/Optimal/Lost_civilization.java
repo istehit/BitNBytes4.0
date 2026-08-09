@@ -1,4 +1,3 @@
-package ROUND_1.JAVA.Optimal;
 
 import java.io.*;
 import java.util.*;

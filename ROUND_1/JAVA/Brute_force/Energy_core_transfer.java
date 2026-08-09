@@ -1,4 +1,3 @@
-package ROUND_1.JAVA.Brute_force;
 
 import java.io.*;
 import java.util.*;
@@ -33,4 +32,10 @@ public class Energy_core_transfer {
     }
     
 }
+/* 
+Time Complexity
+O(2^n)     
+Space Complexity
+O(n)
+*/
 

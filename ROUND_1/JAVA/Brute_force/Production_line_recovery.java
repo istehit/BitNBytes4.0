@@ -1,4 +1,3 @@
-package ROUND_1.JAVA.Brute_force;
 
 import java.io.*;
 import java.util.*;
