@@ -1,8 +1,3 @@
-# Brute Force Approach - repeatedly scan the whole string for every possible
-# subtractive pair (IV, IX, XL, XC, CD, CM) using str.replace, then sum up
-# the remaining symbols one by one. Involves many extra full-string scans
-# instead of a single pass with lookahead.
-
 def solve(s: str) -> int:
     val = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
 
@@ -13,7 +8,6 @@ def solve(s: str) -> int:
     }
 
     total = 0
-    # Repeatedly look for a subtractive pair anywhere in the string
     i = 0
     remaining = s
     while i < len(remaining):
@@ -26,7 +20,6 @@ def solve(s: str) -> int:
             i += 1
 
     return total
-
 
 if __name__ == "__main__":
     s = input().strip()
