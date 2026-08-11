@@ -1,14 +1,9 @@
-# Brute Force Approach - merge both arrays into one list and sort it from
-# scratch (ignoring that they are already individually sorted), then pick
-# the middle element(s). Runs in O((N+M) log(N+M)) time and O(N+M) space,
-# far slower than the O(log(min(N,M))) optimal solution.
-
 import sys
 
 
 def solve(a, b):
     merged = a + b
-    merged.sort()               # O((N+M) log(N+M)) instead of O(log(min(N,M)))
+    merged.sort()           
 
     total = len(merged)
     mid = total // 2
