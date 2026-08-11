@@ -1,6 +1,3 @@
-# Optimal Approach - O(N) sliding window using two pointers and a
-# frequency counter for the pattern.
-
 import sys
 from collections import Counter
 
@@ -32,7 +29,6 @@ def solve(s: str, p: str):
     if best_len == float('inf'):
         return None
     return s[best_l:best_r]
-
 
 if __name__ == "__main__":
     data = sys.stdin.read().split('\n')
