@@ -1,7 +1,3 @@
-# Optimal Approach - O(N log(max_sum)) time using a frequency map (Counter).
-# For every distinct value v, check all powers of two p and see how many
-# values (p - v) exist, avoiding the O(N^2) all-pairs comparison.
-
 import sys
 from collections import Counter
 
