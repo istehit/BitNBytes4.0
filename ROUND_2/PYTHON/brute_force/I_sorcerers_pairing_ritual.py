@@ -1,7 +1,3 @@
-# Brute Force Approach - check every pair (i, j) with i < j directly,
-# and for each pair test whether the sum is a power of two. O(N^2) time,
-# far slower than the O(N log(max_sum)) frequency-map optimal solution.
-
 import sys
 
 
