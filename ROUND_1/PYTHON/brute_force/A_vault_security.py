@@ -1,7 +1,3 @@
-# Brute Force Approach - build the reversed string character by character
-# using string concatenation (O(len^2) due to repeated string copies),
-# then compare with the original string.
-
 def solve(n: int) -> str:
     if n < 0:
         return "NO"
