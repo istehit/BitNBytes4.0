@@ -1,9 +1,3 @@
-# Optimal Approach - O(N) time, O(1) extra space.
-# Pass 1 (left -> right): track max seen so far, mark rightmost point
-#                          where an element is smaller than that max.
-# Pass 2 (right -> left): track min seen so far, mark leftmost point
-#                          where an element is larger than that min.
-
 def solve(arr):
     n = len(arr)
     if n <= 1:
