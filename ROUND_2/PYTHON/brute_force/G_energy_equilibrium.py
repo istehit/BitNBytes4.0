@@ -1,8 +1,3 @@
-# Brute Force Approach - check every possible triplet of indices (i, j, k)
-# with a triple nested loop. Runs in O(N^3) time, using a set to remove
-# duplicate triplets. Very slow for large N compared to the O(N^2)
-# sorted two-pointer optimal solution.
-
 def solve(arr):
     n = len(arr)
     seen = set()
