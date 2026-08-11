@@ -1,6 +1,3 @@
-# Optimal Approach - O(log10 N) time, O(1) extra space (ignoring string conversion)
-# Reverse digits arithmetically and compare with original.
-
 def solve(n: int) -> str:
     if n < 0:
         return "NO"
