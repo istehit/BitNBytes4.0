@@ -1,8 +1,4 @@
-# Optimal Approach - O(log(min(N, M))) binary search on the smaller array
-# to find the correct partition point, without merging the arrays.
-
 import sys
-
 
 def solve(a, b):
     if len(a) > len(b):
