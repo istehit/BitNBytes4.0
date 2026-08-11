@@ -1,8 +1,3 @@
-# Brute Force Approach - check every possible substring of S (all start
-# and end positions) and verify whether it contains all required
-# character frequencies from P. Runs in O(N^2 * |alphabet|) time
-# (or worse), much slower than the O(N) sliding window optimal solution.
-
 import sys
 from collections import Counter
 
@@ -30,7 +25,7 @@ def solve(s: str, p: str):
                 length = end - start + 1
                 if best is None or length < len(best):
                     best = s[start:end + 1]
-                break  # smallest valid window for this start found
+                break 
 
     return best
 
