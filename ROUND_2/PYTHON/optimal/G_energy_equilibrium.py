@@ -1,7 +1,3 @@
-# Optimal Approach - O(N^2) time, O(1) extra space (excluding output).
-# Sort the array, fix one element, then use two pointers to find the
-# remaining pair, skipping duplicates to keep triplets unique.
-
 def solve(arr):
     arr.sort()
     n = len(arr)
